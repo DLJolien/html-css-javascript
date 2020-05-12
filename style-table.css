@@ -1,0 +1,40 @@
+.header th{
+    border: white solid 1px;
+    border-radius: 10px 10px 0% 0%;
+    border-collapse: separate;
+    border-spacing: 0;
+    perspective: 1px;
+    overflow: hidden;
+    padding: 0px 7px;   
+}
+
+.header th:nth-child(2n+1) {
+    background-color: #5c7c79;
+    color: white;
+}
+.header th:nth-child(2n) {
+    background-color: #3b5762;
+    color: white;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+/* tr td:first-child{
+    background-color: lightgrey;
+    font-weight: bold;
+} */
+tr:not(:nth-of-type(1)) td:first-child{
+    background-color: lightgrey;
+    font-weight: bold;
+}
+tr:nth-child(2n+1):not(.header){
+    background-color: lightgray;
+
+}
+
+
+
+

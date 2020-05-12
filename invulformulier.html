@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invulformulier</title>
+    <link rel="stylesheet" href="style-formulier.css">
+</head>
+<body class="background">
+    <form action="GET">
+        <h2>Vul het registratie formulier in. Velden met een * zijn verplicht.</h2>
+        <section>
+            <h1>Accountgegevens</h1>
+            <label class="required" for="voornaam">Voornaam: </label>
+            <input type="text" id="voornaam" required>
+            <br>
+            <label class="required" for="naam">Achternaam: </label>
+            <input type="text" id="naam" required>
+            <br>
+            <label class="required" for="mail">Email: </label>
+            <input type="email" id="mail" required>
+            <br>
+            <label class="required" for="wachtwoord">Wachtwoord: </label>
+            <input type="password" id="wachtwoord" required>
+            <br>
+        </section>
+        <section>
+            <h1>Adresgegevens</h1>
+            <label class="required" for="adres1">Adres1: </label>
+            <input type="text" id="adres1" required>
+            <br>
+            <label for="adres2">Adres2: </label>
+            <input type="text" id="adres2">
+            <br>
+            <label class="required" for="stad">Stad: </label>
+            <input type="email" id="stad" required>
+            <br>
+            <label class="required" for="postcode">Postcode: </label>
+            <input type="password" id="postcode" required>
+            <br>
+        </section>
+        <section>
+            <h1>Persoonlijke gegevens</h1>
+            <label for="geboortedatum">Geboortedatum: </label>
+            <input type="date" id="geboortedatum" >
+            <br>
+            <label for="tevreden">Hoe tevreden ben je?: </label>
+            <input type="range" id="tevreden">
+            <br>
+            <label  for="man">Man </label>
+            <input type="radio" id="man" >
+            <br>
+            <label  for="vrouw">Vrouw </label>
+            <input type="radio" id="vrouw" >
+            <br>
+            <label  for="module">Kies een module: </label>
+            <select name="landen" id="landen">
+                <option value="1">Multimedia</option>
+                <option value="2">Databanken</option>
+                <option selected value="3">Programmeren 3</option>
+                <option value="4">Programmeren 4</option>
+
+            </select>
+            <br>
+        </section>
+        <section>
+            <input type="submit">
+        </section>
+        
+    </form>
+</body>
+</html>

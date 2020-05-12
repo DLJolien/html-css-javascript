@@ -1,0 +1,32 @@
+.background{
+    background-color: #7ecdd4;
+}
+h2{
+    font-size: 14px;
+}
+h2::selection{
+    color: red;
+}
+section{
+    border: #f4fce7 1px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #8abeb2;
+    margin-bottom: 50px;
+}
+label{
+    width: 150px;
+    display: inline-block;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    
+}
+input {
+    border-color: transparent;
+    border-radius: 10px;
+    width: 500px;
+}
+label.required::after {
+    content:" *";
+    display: inline;
+    color: red;
+}

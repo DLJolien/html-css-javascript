@@ -1,0 +1,40 @@
+#Titel-Website{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+}
+#Background{
+    background-color: bisque;
+}
+[href]{
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: normal;
+}
+h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+}
+h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+}
+h4{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+}
+ul li{
+    list-style: none;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    border: 3px solid;
+}
+ol li{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
