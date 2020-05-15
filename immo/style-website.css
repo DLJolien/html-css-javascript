@@ -1,0 +1,52 @@
+.btn 
+{   border-radius: 0; 
+    width: 180px;
+}
+.jumbotron{
+    max-height: 300px;
+    padding-top: 30px;
+}
+.card{
+    margin-top: 10px;
+}
+label.required:after
+{
+    color: red;
+    content: " *";
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-img-top{
+    height: 200px;
+}
+.card h4{
+    color:rgb(197, 0, 0);
+}
+.card .btn{
+    text-align: center;
+}
+.carousel-inner img{
+    height:500px; 
+    width: 500px;
+    z-index: -1;
+    
+
+}
+#carouselExampleSlidesOnly{
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 260px;
+    margin-right:200px;
+}
+#search-filter{
+    z-index: 100;
+    justify-content: center;
+
+}
+
