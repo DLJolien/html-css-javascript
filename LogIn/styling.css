@@ -1,0 +1,48 @@
+.container{
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#form{
+    display: flex;           
+    flex-direction: column;  
+    justify-content: center;    
+    height: 300px;
+    width: 50vh;
+}
+#form div{
+   margin-top: 10px;
+}
+
+.form-inline label{
+width: 25%;
+justify-content: flex-start;
+  
+}
+.form-inline input{
+    width: 75% !important;
+    justify-content: flex-end;
+}
+#btn-login:hover{
+    color:black;
+}
+#btn-login{
+    display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.form-group.form-check{
+    display: inline;
+    text-align: end;
+    
+}
+
+label.required:after
+{
+    color: red;
+    content: " *";
+}

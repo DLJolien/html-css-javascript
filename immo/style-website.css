@@ -43,10 +43,20 @@ h3{
     background-position: 50% 50%;
     margin-left: 260px;
     margin-right:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #search-filter{
-    z-index: 100;
     justify-content: center;
+    align-self: center;
 
+}
+.form-inline.text-center{
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
 
