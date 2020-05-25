@@ -1,0 +1,29 @@
+#container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+ul{
+    width: 70vw;
+    padding-inline-start: 0px;
+    display: flex;    
+    flex-direction: column;        
+    justify-content:flex-start; 
+    margin: 0 auto;
+}
+
+ul li{
+    font-size: 13px;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 0px;
+}
+form{
+    width: 70vw;
+}
