@@ -1,0 +1,11 @@
+{
+  "name": "immo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blogposts.js",
+  "scripts": {
+    "start": "nodemon contact.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
