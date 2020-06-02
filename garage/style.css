@@ -7,9 +7,10 @@
 h1{
     text-align: center;
     margin: 20px;
+    font-size: 30px;
 }
 ul{
-    width: 70vw;
+    width: 90vw;
     padding-inline-start: 0px;
     display: flex;    
     flex-direction: column;        
@@ -25,5 +26,26 @@ ul li{
     padding: 5px 0px;
 }
 form{
-    width: 70vw;
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+div.form-inline >*{
+    border: solid 1px darkcyan;
+    margin: 3px;
+    font-family: inherit;
+    height: calc(1.5em + .75rem + 2px);
+    border-radius: .25rem;
+
+}
+
+form button{
+    margin-left: 5px;
+}
+#div-buttons{
+    display: flex;
+    justify-content: center;
 }

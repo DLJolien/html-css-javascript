@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</head>
+<body>
+    <div id="container">
+        <h1>Hangman</h1>
+        <div id="options">          
+                <input id="theme-selection" list="themes" name="getTheme" placeholder="Choose a theme"/>  
+                <datalist id="themes">
+                  <option value="Animal">
+                  <option value="Clothing">
+                </datalist>            
+                <button id="btnPlay" class="btn btn-info">Start game</button>                        
+          </div>      
+           <div id="playArea">
+             <img id="hangman" src="" alt="">
+             <p id="guesses"></p>
+             <h3 id= "guessedLetters"></h3>
+            <h2 id="wordToGuess"></h2>
+            <div id="letterButtons">
+            <button id="A" class="btn btn-info">A</button>
+            <button id="B" class="btn btn-info">B</button>
+            <button id="C" class="btn btn-info">C</button>
+            <button id="D" class="btn btn-info">D</button>
+            <button id="E" class="btn btn-info">E</button>
+            <button id="F" class="btn btn-info">F</button>
+            <button id="G" class="btn btn-info">G</button>
+            <button id="H" class="btn btn-info">H</button>
+            <button id="I" class="btn btn-info">I</button>
+            <button id="J" class="btn btn-info">J</button>
+            <button id="K" class="btn btn-info">K</button>
+            <button id="L" class="btn btn-info">L</button>
+            <button id="M" class="btn btn-info">M</button>
+            <button id="N" class="btn btn-info">N</button>
+            <button id="O" class="btn btn-info">O</button>
+            <button id="P" class="btn btn-info">P</button>
+            <button id="Q" class="btn btn-info">Q</button>
+            <button id="R" class="btn btn-info">R</button>
+            <button id="S" class="btn btn-info">S</button>
+            <button id="T" class="btn btn-info">T</button>
+            <button id="U" class="btn btn-info">U</button>
+            <button id="V" class="btn btn-info">V</button>
+            <button id="W" class="btn btn-info">W</button>
+            <button id="X" class="btn btn-info">X</button>
+            <button id="Y" class="btn btn-info">Y</button>
+            <button id="Z" class="btn btn-info">Z</button>
+
+          </div>
+          </div>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script content-type= "text/html" type="module" src= index.js></script>
+  </body>
+
+</html>

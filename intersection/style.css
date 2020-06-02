@@ -1,0 +1,25 @@
+#visibility{
+    text-align: center;
+    background-color:red;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#block{
+    background-color: lightgrey;
+    width: 80vw;
+    height: 20vh;
+    margin-top: 1200px
+}
+
+#rectangle{
+    width: 60vw;
+    height: 18vh;
+    background-color: green;
+}
